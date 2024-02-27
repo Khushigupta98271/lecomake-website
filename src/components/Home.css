@@ -1,0 +1,259 @@
+.why-choose,.post-hero,.multi-service,.we-creative,.Creative-cards{
+    background: black;
+}
+.carousel-one{
+    /* background: linear-gradient(rgba(30, 30, 30, 0.84),rgba(30, 30, 30, 0.812)),url(../images//background//pexels-gustavo-fring-6285070.jpg) no-repeat center ;
+    background-size: cover; */
+    height: 120vh;
+
+}
+.carousel-icons{
+    position:absolute;
+    bottom:80%;
+    left: -20%;
+}   
+
+.service-head{
+    font-size: 16px;
+    color: white;
+}
+.service-head:hover{
+    color:#DD4242;
+    transition: 1s;
+}
+.service-images{
+    width: 100px !important;
+}
+.service-image-col{
+    overflow: hidden;
+}
+.service-images:hover{
+    transform: scale(1.2,1.2)!important;
+    overflow: hidden;
+    transition: 1s !important;
+}
+.why-choose-img{
+    height: 80vh;
+}
+.Why-Lecomake{
+    color: #DD4242;
+}
+
+.accordion{
+    border: 1px solid #DD4242;
+    border-radius: 0px;
+    background: black;
+    --bs-accordion-bg: #000000;
+    --bs-accordion-btn-focus-border-color: #000000;
+     --bs-accordion-btn-focus-box-shadow: none;
+     --bs-accordion-border-color: black;
+     --bs-accordion-active-bg: black;
+     --bs-accordion-active-color: #0c63e4;
+     margin: 4px 0;
+}
+.accordion-header{
+    /* display: none; */
+    color: white;
+    background-color: black ;
+}   
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+
+}
+button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
+    background: black;
+    cursor: pointer;
+    color: #999;
+}
+.fa-hand-point-right{
+    font-size: 28px !important;
+    color: #DD4242;
+}
+hr{
+    color: #fff3f3;
+}
+.counter{
+    font-size: 50px;
+    color: #DD4242;
+    font-weight: bolder;
+}
+.Creative{
+    color: #DD4242;
+}
+.Creative-cared{
+    border: 2px solid #DD4242 !important;
+}
+.know-more{
+    display: none;
+}
+#Explore{
+    background: black;
+}
+.nav-tabs .nav-link{
+    border: 0px;
+    margin: 0px;
+    background: black;
+}
+.nav-tabs .nav-link.active{
+    background: black;
+}
+.nav-tabs {
+    --bs-nav-tabs-border-width: 0px;
+}
+.Images-card{
+    height: auto;
+    width: 100%;
+     padding: 20px;
+    color: white;
+    background-size: cover;
+    display: flex;
+  position: relative;
+    cursor: pointer;
+}
+.all-one{
+    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background-size: cover;
+}
+.all-two{
+    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background-size: cover;
+}
+.all-three{
+    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background-size: cover;
+}
+.all-four{
+    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background-size: cover;
+}
+.all-five{
+    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background-size: cover;
+}
+.all-six{
+    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background-size: cover;
+}
+.all-seven{
+    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background-size: cover;
+}
+.all-eight{
+    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background-size: cover;
+}
+.all-nine{
+    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background-size: cover;
+}
+.all-ten{
+    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background-size: cover;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(31, 31, 31, 0.85);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+   
+}
+
+.content *{
+    transform: translateY(-60%);
+    transition: all 0.7s ease-in-out;
+     opacity: 0;
+}
+
+.content h2{
+    font-size: 35px;
+    margin: 15px;
+    font-weight: 700;
+}
+
+.content h3{
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.Images-card:hover .content{
+    opacity: 1;
+}
+
+.Images-card:hover .content *{
+    opacity: 1;
+    transform: translateY(0);
+}
+#contact{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#contact div p{
+    color: rgb(182, 182, 182);
+}
+
+@media only screen and (min-width:768px){
+    .service-images{
+        width: 110px !important;
+    }  
+    .know-more{
+        display: block;
+        margin: 112px 0px 112px 0px;
+    }
+   
+    }
+    .Our-Service-Card:hover .know-more{
+            display: none;
+            transition: 1s !important;
+    } 
+    .serviceImg{
+        display: none;
+    }
+    .Our-Service-Card{
+        border: 0px;
+    }
+    .Our-Service-Card:hover .serviceImg{
+        display: block;
+        transition: 1s !important;
+    }
+    #our-service{
+        background-image: linear-gradient(rgba(20, 19, 19, 0.871), rgba(20, 19, 19, 0.871)), url("../images/background/service-detail-bg-1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* position: absolute; */
+
+    }
+    .our-service-head{
+        color:white ;
+    }
+    .Our-Service-Card:hover .our-service-head{
+        color: #DD4242;
+    }
+    .service-card-text{
+        color: rgb(182, 182, 182);
+    }
+    .Our-Service-Card:hover .service-card-text{
+        color: white;
+    }
+    
+@media only screen and (min-width:1024px){
+    .Accordion-section{
+        margin: 2% 0% 0% -10%;
+    }
+    .why-choose-img{
+        margin: 0% -10% 0% 0% !important;
+    }
+}
+@media only screen and (min-width:1440px){
+    .service-images{
+        width: 130px !important;
+    } 
+    .Accordion-section{
+        margin: 0% 0% 0% -10% !important; 
+    } 
+}

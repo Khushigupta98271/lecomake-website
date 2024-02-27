@@ -1,0 +1,12 @@
+#footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.904),rgba(0, 0, 0, 0.904)) ,url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.footer-description{
+    color: rgb(182, 182, 182);
+}
+.explore-list{
+    list-style: none;
+    color: rgb(182,182,182);
+}

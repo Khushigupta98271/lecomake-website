@@ -1,0 +1,30 @@
+.sm-navbar, .off-body,.main-nav{
+    background: rgba(0, 0, 0,0.8) !important;
+}
+.nav-link{
+    font-size: 17px;
+    color: rgb(255, 255, 255) !important;
+}
+.navbar-toggler, .navbar-toggler-icon{
+    color: white !important;
+}
+ .login-button{
+    color: white;
+    border: 1px solid white;
+ }
+ .login-button:hover{
+    color: #DD4242;
+    border: 1px solid #DD4242;
+    transition: 0.9s all ease-in-out;
+ }
+ .fa-circle{
+    font-size: 10px;
+    color: #DD4242;
+ } 
+ .login-button:hover .fa-circle{
+    color: white;
+    transition: 0.9s all ease-in-out;
+ }
+ .dropdown:hover .dropdown-menu{
+   display: block;
+ }
