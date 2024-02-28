@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import Services from './components/Services';
+import WebsiteDesign from './components/WebsiteDesign';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
         <Route path="/" element={<Home/>} />
         <Route exact path="Components/Services" element={<Services/>} />
+        <Route exact path="/WebsiteDesign" element={<WebsiteDesign/>} />
         </Routes>
         <Footer/>
         </BrowserRouter>

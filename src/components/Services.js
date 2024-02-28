@@ -2,7 +2,7 @@ import React from 'react'
 import'./Services.css'
 import serviceIcon from '../images/background/03.png'
 import serviceImg from  '../images/background/our-services.jpg'
-// import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 const Services =()=>{
     return(
         <>
@@ -35,14 +35,14 @@ const Services =()=>{
                     <img src={serviceImg} alt="sample38" />
                     <div className="title">
                         <div>
-                        <h2>Lecomake  </h2>
+                        <h2>Lecomake </h2>
                         <h4>management</h4>
                         </div>
                     </div>
                     <figcaption>
                         <p className='d-none d-md-block'>We Provide comprehensive solutions to streamline operations, optimize efficiency, and drive growth for businesses of all sizes.</p>
                     </figcaption>
-                    {/* <a ></a> */}
+                    
                     </figure>
                     
                 </div>
@@ -50,7 +50,10 @@ const Services =()=>{
                 <figure className="snip1477">
                     <img src={serviceImg} alt="sample38" />
                     <div className="title">
+                    <Link to='/WebsiteDesign'> Visit</Link>
+
                         <div>
+                            
                         <h2>Web Design</h2>
                         <h4>& Development</h4>
                         </div>
@@ -58,7 +61,7 @@ const Services =()=>{
                     <figcaption>
                         <p className='d-none d-md-block'>We Create Responsive end extremely fast websites,with latest technology</p>
                     </figcaption>
-                    {/* <a ></a> */}
+                 
                     </figure>
                     
                 </div>
@@ -74,7 +77,7 @@ const Services =()=>{
                     <figcaption>
                         <p className='d-none d-md-block'>Developing Android and iOS applications demands a comprehensive approach blending technical prowess with user-centric design</p>
                     </figcaption>
-                    {/* <a ></a> */}
+               
                     </figure>
                     
                 </div>
@@ -90,7 +93,7 @@ const Services =()=>{
                     <figcaption>
                         <p className='d-none d-md-block'>Supporting Micro, Small, and Medium Enterprises (MSMEs) by giving Financial Assistance, Capacity Building, Access to Markets, etc</p>
                     </figcaption>
-                    {/* <a ></a> */}
+                  
                     </figure>
                     
                 </div>
@@ -106,7 +109,7 @@ const Services =()=>{
                     <figcaption>
                         <p className='d-none d-md-block'> We  give a range of strategies and techniques used to promote products or services using digital channels such as search engines, social media, email, websites, and mobile apps. </p>
                     </figcaption>
-                    {/* <a ></a> */}
+                   
                     </figure>
                     
                 </div>
@@ -122,7 +125,7 @@ const Services =()=>{
                     <figcaption>
                         <p className='d-none d-md-block'> A great variety of techniques and methodologies tailored to different types of data and objectives. Some key components of data analysis includes -Data Collection, Data Collection and so on.</p>
                     </figcaption>
-                    {/* <a ></a> */}
+            
                     </figure>
                     
                 </div>
