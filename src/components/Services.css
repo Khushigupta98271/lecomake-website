@@ -1,6 +1,6 @@
 .Service-Main{
     background: linear-gradient(rgba(62,62,62,0.9),rgba(10, 10, 10, 0.9)),url(../images/background/Gagaa-Home1-Banner-Bg-scaled.jpg);
-    color: white;
+    color:white;
 }
 .Service-Main:hover{
     color: #DD4242;
