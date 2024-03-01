@@ -1,18 +1,18 @@
 .why-choose,.post-hero,.multi-service,.we-creative,.Creative-cards{
     background: black;
 }
-.carousel-one{
+.carousel-image{
     /* background: linear-gradient(rgba(30, 30, 30, 0.84),rgba(30, 30, 30, 0.812)),url(../images//background//pexels-gustavo-fring-6285070.jpg) no-repeat center ;
     background-size: cover; */
     height: 120vh;
+    width: 100%;
 
 }
-.carousel-icons{
-    position:absolute;
-    bottom:80%;
-    left: -20%;
-}   
-
+.first-section{
+    position: absolute;
+    top: 2%;
+    /* bottom: -50%; */
+}
 .service-head{
     font-size: 16px;
     color: white;
@@ -72,7 +72,7 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 hr{
     color: #fff3f3;
 }
-.counter{
+.digit{
     font-size: 50px;
     color: #DD4242;
     font-weight: bolder;
@@ -111,43 +111,60 @@ hr{
     cursor: pointer;
 }
 .all-one{
-    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background: url(../images/background/IMG-20240229-WA0007.jpg) no-repeat center;
     background-size: cover;
 }
 .all-two{
-    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background: url(../images/background/IMG-20240229-WA0008.jpg) no-repeat center;
     background-size: cover;
 }
 .all-three{
-    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background: url(../images/background/IMG-20240229-WA0009.jpg) no-repeat center;
     background-size: cover;
 }
 .all-four{
-    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background: url(../images/background/IMG-20240229-WA0010.jpg) no-repeat center;
     background-size: cover;
 }
 .all-five{
-    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background: url(../images/background/IMG-20240229-WA0013.jpg) no-repeat center;
     background-size: cover;
 }
 .all-six{
-    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background: url(../images/background/IMG-20240229-WA0015.jpg) no-repeat center;
     background-size: cover;
 }
 .all-seven{
-    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background: url(../images/background/IMG-20240229-WA0006.jpg) no-repeat center;
     background-size: cover;
 }
 .all-eight{
-    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background: url(../images/background/IMG-20240229-WA0006.jpg) no-repeat center;
     background-size: cover;
 }
 .all-nine{
-    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background: url(../images/background/diverse-people-thinking-planning-marketing-brand-concept.jpg) no-repeat center;
     background-size: cover;
 }
 .all-ten{
-    background: url(../images/background/service-detail-bg-1.jpg) no-repeat center;
+    background: url(../images/background/32719.jpg) no-repeat center;
+    background-size: cover;
+}
+.all-eleven{
+    background: url(../images/background/IMG-20240229-WA0012.jpg) no-repeat center;
+    background-size: cover;
+}
+.all-twelve
+{
+    background: url(../images/background/IMG-20240229-WA0011.jpg) no-repeat center;
+    background-size: cover;
+}
+.all-thirteen{
+    background: url(../images/background/IMG-20240229-WA0014.jpg) no-repeat center;
+    background-size: cover;
+}
+.all-fourteen{
+    background: url(../images/background/IMG-20240229-WA0006.jpg) no-repeat center;
     background-size: cover;
 }
 .content{
@@ -171,12 +188,12 @@ hr{
 .content h2{
     font-size: 35px;
     margin: 15px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .content h3{
-    font-size: 23px;
-    text-transform: uppercase;
+    font-size: 35px;
+    /* text-transform: uppercase; */
 }
 
 .Images-card:hover .content{

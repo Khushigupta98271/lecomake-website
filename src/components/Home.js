@@ -12,47 +12,56 @@ import CarouselImg from '../images/background/pexels-gustavo-fring-6285070.jpg'
 const Home=()=>{
     return(
         <>
-        <div className="row">
-            <div className="col-12 p-0">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div className="row ">
+            {/* <div>
+
+            </div> */}
+            <div className="col-12  p-0 ">
+            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-                    <div class="carousel-inner">
-                        <div className="col-12 col-md-">
-
-                        </div>
-                        <div class="carousel-item active carousel-one">
-                        <img src={CarouselImg} class="d-block w-100" alt="..."/>
-                        <div class="carousel-caption ">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active position-relative">
+                        <img src={CarouselImg} class="d-block w-100 carousel-image" alt="..."/>
+                        <div className="row ">
+                            <div className="col-12 col-md-10 col-lg-6 text-start m-0 px-5 " >
+                            <div className="carousel-caption first-section">
                             <div className="row">
-                                <div className="col-3 carousel-icons">
-                                    <p><i className="fab fa-facebook my-2"></i></p>
-                                     <p> <i className="fab fa-instagram my-2"></i></p>
-                                   <p><i className="fab fa-twitter my-2"></i></p>
-                                     <p><i className="fab fa-linkedin-in my-2"></i></p>
-                                
-
+                                <div className="col-2 col-md-1 me-auto">
+                                    <p><i className="fab fa-behance"></i></p>
+                                    <p><i className="fab fa-facebook-f"></i></p>
+                                    <p><i className="fab fa-instagram"></i></p>
+                                    <p><i className="fab fa-pinterest-p"></i></p>
+                                    <p><i className="fab fa-linkedin-in"></i></p>
                                 </div>
-                                <div className="col-9">
-
+                                <div className=" col-10 col-md-11 me-auto text-start">
+                                <h5>IT SERVICE FOR ALL KIND OF BUSINESS</h5>
+                            <p>Experience the benefit of custom software and application development with our team of experts.Whether you need web, mobile, por integration solutions , our software development services cater to your unique requirement .</p>
                                 </div>
+
                             </div>
                             
                         </div>
                         </div>
-                        <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="..."/>
-                        <div class="carousel-caption d-none d-md-block">
+                        <div className="col-12 col-md-2 col-lg-5">
+
+                        </div>
+                        </div>
+                    
+                        </div>
+                        <div className="carousel-item">
+                        <img src={CarouselImg} className="d-block w-100" alt="..."/>
+                        <div className="carousel-caption d-none d-md-block">
                             <h5>Second slide label</h5>
                             <p>Some representative placeholder content for the second slide.</p>
                         </div>
                         </div>
-                        <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="..."/>
-                        <div class="carousel-caption d-none d-md-block">
+                        <div className="carousel-item">
+                        <img src={CarouselImg} className="d-block w-100" alt="..."/>
+                        <div className="carousel-caption d-none d-md-block">
                             <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>
                         </div>
@@ -251,56 +260,56 @@ const Home=()=>{
             <div className="col-12  col-lg-11 col-xl-10 mx-auto">    
                 <div className="row">
                     <div className="col-12 col-md-6 col-lg-3">
-                        <div class="card Creative-cards">
-                            <div class="row">
-                                <div class="col-6 ">
-                                <p className="counter ps-3">317</p>
+                        <div className="card Creative-cards">
+                            <div className="row">
+                                <div className="col-6 ">
+                                <p className="digit ps-3">317</p>
                                 </div>
-                                <div class="col-6 p-0">
-                                <div class="card-body">
-                                    <h5 class="card-title text-white text-start">SATISFIED CLIENTS</h5>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-12 col-md-6 col-lg-3">
-                        <div class="card border-0 Creative-cards">
-                            <div class="row ">
-                                <div class="col-6">
-                                <p className="counter ps-3">22</p>
-                                </div>
-                                <div class="col-6  p-0 ">
-                                <div class="card-body">
-                                    <h5 class="card-title text-white text-start">COMPANY MEMBERS</h5>
+                                <div className="col-6 p-0">
+                                <div className="card-body">
+                                    <h5 className="card-title text-white text-start">SATISFIED CLIENTS</h5>
                                 </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="col-12 col-md-6 col-lg-3">
-                        <div class="card border-0 Creative-cards">
-                            <div class="row  ">
-                                <div class="col-6">
-                                <p className="counter ps-3">15</p>
+                        <div className="card border-0 Creative-cards">
+                            <div className="row ">
+                                <div className="col-6">
+                                <p className="digit ps-3">22</p>
                                 </div>
-                                <div class="col-6 p-0 ">
-                                <div class="card-body">
-                                    <h5 class="card-title text-white text-start">AWARDS WON</h5>
+                                <div className="col-6  p-0 ">
+                                <div className="card-body">
+                                    <h5 className="card-title text-white text-start">COMPANY MEMBERS</h5>
                                 </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="col-12 col-md-6 col-lg-3">
-                        <div class="card border-0 Creative-cards">
-                            <div class="row">
-                                <div class="col-6">
-                                <p className="counter ps-3">2</p>
+                        <div className="card border-0 Creative-cards">
+                            <div className="row  ">
+                                <div className="col-6">
+                                <p className="digit ps-3">15</p>
                                 </div>
-                                <div class="col-6 p-0">
-                                <div class="card-body">
-                                    <h5 class="card-title text-white text-start">YEARS OF EXPERIENCE</h5>
+                                <div className="col-6 p-0 ">
+                                <div className="card-body">
+                                    <h5 className="card-title text-white text-start">AWARDS WON</h5>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-3">
+                        <div className="card border-0 Creative-cards">
+                            <div className="row">
+                                <div className="col-6">
+                                <p className="digit ps-3">2</p>
+                                </div>
+                                <div className="col-6 p-0">
+                                <div className="card-body">
+                                    <h5 className="card-title text-white text-start">YEARS OF EXPERIENCE</h5>
                                 </div>
                                 </div>
                             </div>
@@ -313,10 +322,10 @@ const Home=()=>{
         <div className="row py-5"id="our-service">
             <h2 className="text-center text-white">Our Services</h2>
             <div className="col-12 col-md-4 col-lg-3 mx-auto my-3">
-             <div class="card Our-Service-Card bg-transparent">
-                <div class="card-body text-center">
-                    <h5 class="card-title our-service-head">INFORMATION TECHNOLOGY</h5>
-                    <p class="card-text py-2 px-lg-4 service-card-text">
+             <div className="card Our-Service-Card bg-transparent">
+                <div className="card-body text-center">
+                    <h5 className="card-title our-service-head">INFORMATION TECHNOLOGY</h5>
+                    <p className="card-text py-2 px-lg-4 service-card-text">
                     Proactive monitoring and maintenance of IT infrastructure, Helpdesk support for end-users, IT security management, Data backup and disaster recovery, Network management and optimization..</p>
                     <p className="know-more">know more</p>
                     <img src={serviceImg} alt="" className="img-fluid serviceImg" />
@@ -324,10 +333,10 @@ const Home=()=>{
               </div>
             </div>
             <div className="col-12 col-md-4 col-lg-3 mx-auto my-3">
-             <div class="card Our-Service-Card bg-transparent">
-                <div class="card-body text-center">
-                    <h5 class="card-title our-service-head">WEBSITE & SOFTWARE</h5>
-                    <p class="card-text py-2 px-lg-4 service-card-text">
+             <div className="card Our-Service-Card bg-transparent">
+                <div className="card-body text-center">
+                    <h5 className="card-title our-service-head">WEBSITE & SOFTWARE</h5>
+                    <p className="card-text py-2 px-lg-4 service-card-text">
                     We listen to your needs and deliver solutions that exceed expectations, Custom Web Design & development, Mobile Optimization, Intuitive User Experience, Cutting-Edge Development, SEO Integration.</p>
                     <p className="know-more">know more</p>
                     <img src={serviceImg} alt="" className="img-fluid serviceImg" />
@@ -335,10 +344,10 @@ const Home=()=>{
               </div>
             </div>
             <div className="col-12 col-md-4 col-lg-3 mx-auto my-3">
-             <div class="card Our-Service-Card bg-transparent">
-                <div class="card-body our-service-head">
-                    <h5 class="card-title text-white">SOCIAL MEDIA HANDLE</h5>
-                    <p class="card-text py-2 px-lg-4 service-card-text">
+             <div className="card Our-Service-Card bg-transparent">
+                <div className="card-body our-service-head">
+                    <h5 className="card-title text-white">SOCIAL MEDIA HANDLE</h5>
+                    <p className="card-text py-2 px-lg-4 service-card-text">
                     Efficient resource allocation, including talent and budget management. Moreover, effective communication and collaboration among cross-functional teams promote synergy and enable seamless project execution.</p>
                     <p className="know-more">know more</p>
                     <img src={serviceImg} alt="" className="img-fluid serviceImg" />
@@ -346,10 +355,10 @@ const Home=()=>{
               </div>
             </div>
             <div className="col-12 col-md-4 col-lg-3 mx-auto my-3">
-             <div class="card Our-Service-Card bg-transparent">
-                <div class="card-body our-service-head">
-                    <h5 class="card-title text-white">BRAND PROMOTION</h5>
-                    <p class="card-text py-2 px-lg-4 service-card-text">
+             <div className="card Our-Service-Card bg-transparent">
+                <div className="card-body our-service-head">
+                    <h5 className="card-title text-white">BRAND PROMOTION</h5>
+                    <p className="card-text py-2 px-lg-4 service-card-text">
                     We handle all major social platforms, including Facebook, Twitter, Instagram, LinkedIn, and more, Strategic Approach, Content Creation, Audience Engagement, Analytics and Insights, Trend Awareness</p>
                     <p className="know-more">know more</p>
                     <img src={serviceImg} alt="" className="img-fluid serviceImg" />
@@ -380,7 +389,7 @@ const Home=()=>{
                         <button  className="nav-link" id="Brand-tab" data-bs-toggle="tab" data-bs-target="#Brand" type="button" role="tab" aria-controls="Brand" aria-selected="false">Brand</button>
                     </li>
                     <li className="nav-item mx-auto" role="presentation">
-                        <button  className="nav-link" id="Development-tab" data-bs-toggle="tab" data-bs-target="#Development" type="button" role="tab" aria-controls="Development" aria-selected="false">Development</button>
+                        <button  className="nav-link" id="Development-tab" data-bs-toggle="tab" data-bs-target="#Development" type="button" role="tab" aria-controls="Development" aria-selected="false">Graphic Designing</button>
                     </li>
                     </ul>
                 </div>
@@ -392,9 +401,9 @@ const Home=()=>{
                             <div className="col-12 col-md-6 col-lg-3 ">
                             <div className="Images-card my-2 all-one">
                                     <div className="content" onclick="OnClick()" >
-                                        <div>
-                                        <h2>Dubai</h2>
-                                        <h3>United Arab Emirates</h3>  
+                                    <div className="my-3">
+                                        <h2>Web</h2>
+                                        <h3>Designing</h3>  
                                         </div>
                                         
                                     </div>
@@ -403,19 +412,19 @@ const Home=()=>{
                             <div className="col-12 col-md-6 col-lg-3 ">
                             <div className="Images-card my-2 all-two">
                                     <div className="content" onclick="OnClick()" >
-                                    <div>
-                                        <h2>Dubai</h2>
-                                        <h3>United Arab Emirates</h3>  
-                                        </div> 
+                                    <div className="my-3">
+                                        <h2>Web</h2>
+                                        <h3>Designing</h3>  
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-12 col-md-6 col-lg-3">
                             <div className="Images-card my-2 all-three ">
                                     <div className="content" onclick="OnClick()" >
-                                    <div>
-                                        <h2>Dubai</h2>
-                                        <h3>United Arab Emirates</h3>  
+                                    <div className="my-3">
+                                        <h2>Web</h2>
+                                        <h3>Designing</h3>  
                                         </div>
                                     </div>
                                 </div>
@@ -423,9 +432,9 @@ const Home=()=>{
                             <div className="col-12 col-md-6 col-lg-3">
                             <div className="Images-card my-2 all-four">
                                     <div className="content" onclick="OnClick()" >
-                                    <div>
-                                        <h2>Dubai</h2>
-                                        <h3>United Arab Emirates</h3>  
+                                    <div className="my-3">
+                                        <h2>Web</h2>
+                                        <h3>Designing</h3>  
                                         </div> 
                                     </div>
                                 </div>
@@ -433,19 +442,19 @@ const Home=()=>{
                             <div className="col-12 col-md-6 col-lg-3">
                             <div className="Images-card my-2 all-five">
                                     <div className="content" onclick="OnClick()" >
-                                    <div>
-                                        <h2>Dubai</h2>
-                                        <h3>United Arab Emirates</h3>  
-                                        </div> 
+                                    <div className="my-3">
+                                        <h2>Web</h2>
+                                        <h3>Designing</h3>  
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-12 col-md-6 col-lg-3">
                             <div className="Images-card my-2 all-six">
                                     <div className="content" onclick="OnClick()" >
-                                    <div>
-                                        <h2>Dubai</h2>
-                                        <h3>United Arab Emirates</h3>  
+                                    <div className="my-3">
+                                        <h2>Web</h2>
+                                        <h3>Designing</h3>  
                                         </div>
                                     </div>
                                 </div>
@@ -453,19 +462,19 @@ const Home=()=>{
                             <div className="col-12 col-md-6 col-lg-3">
                             <div className="Images-card my-2 all-seven">
                                     <div className="content" onclick="OnClick()" >
-                                    <div>
-                                        <h2>Dubai</h2>
-                                        <h3>United Arab Emirates</h3>  
-                                        </div>  
+                                    <div className="my-3">
+                                        <h2>Application</h2>
+                                        <h3>Development</h3>  
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-12 col-md-6 col-lg-3">
                             <div className="Images-card my-2 all-eight">
                                     <div className="content" onclick="OnClick()" >
-                                    <div>
-                                        <h2>Dubai</h2>
-                                        <h3>United Arab Emirates</h3>  
+                                    <div className="my-3">
+                                        <h2>Application</h2>
+                                        <h3>Development</h3>  
                                         </div>
                                     </div>
                                 </div>
@@ -473,9 +482,167 @@ const Home=()=>{
                             <div className="col-12 col-md-6 col-lg-3">
                             <div className="Images-card my-2 all-nine">
                                     <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2 >Brand </h2>
+                                        <h3>promotion</h3>  
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-lg-3">
+                            <div className="Images-card my-2 all-ten">
+                                    <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2 >Brand </h2>
+                                        <h3>promotion</h3>  
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-lg-3">
+                            <div className="Images-card my-2 all-eleven">
+                                    <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2 >Graphic </h2>
+                                        <h3>Designing</h3>  
+
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-lg-3">
+                            <div className="Images-card my-2 all-twelve">
+                                    <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2 >Graphic </h2>
+                                        <h3>Designing</h3>  
+
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-lg-3">
+                            <div className="Images-card my-2 all-thirteen">
+                                    <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2 >Graphic </h2>
+                                        <h3>Designing</h3>  
+
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-lg-3">
+                            <div className="Images-card my-2 all-fourteen">
+                                    <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2 >Graphic </h2>
+                                        <h3>Designing</h3>  
+
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="tab-pane" id="Web" role="tabpanel" aria-labelledby="Web-tab" tabindex="0">
+                            <div className="row">
+                            <div className="col-12 col-md-6 col-lg-3 ">
+                            <div className="Images-card my-2 all-one">
+                                    <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2>Web</h2>
+                                        <h3>Designing</h3>  
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-lg-3 ">
+                            <div className="Images-card my-2 all-two">
+                                    <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2>Web</h2>
+                                        <h3>Designing</h3>  
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-lg-3">
+                            <div className="Images-card my-2 all-three ">
+                                    <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2>Web</h2>
+                                        <h3>Designing</h3>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-lg-3">
+                            <div className="Images-card my-2 all-four">
+                                    <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2>Web</h2>
+                                        <h3>Designing</h3>  
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-lg-3">
+                            <div className="Images-card my-2 all-five">
+                                    <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2>Web</h2>
+                                        <h3>Designing</h3>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-lg-3">
+                            <div className="Images-card my-2 all-six">
+                                    <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2>Web</h2>
+                                        <h3>Designing</h3>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                    <div className="tab-pane" id="App" role="tabpanel" aria-labelledby="App-tab" tabindex="0">
+                        <div className="row">
+                        <div className="col-12 col-md-6 col-lg-3">
+                            <div className="Images-card my-2 all-seven">
+                                    <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2>Application</h2>
+                                        <h3>Development</h3>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-lg-3">
+                            <div className="Images-card my-2 all-eight">
+                                    <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2>Application</h2>
+                                        <h3>Development</h3>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="tab-pane" id="Brand" role="tabpanel" aria-labelledby="Brand-tab" tabindex="0">
+                        <div className="row">
+                        <div className="col-12 col-md-6 col-lg-3">
+                            <div className="Images-card my-2 all-nine">
+                                    <div className="content" onclick="OnClick()" >
                                     <div>
-                                        <h2>Dubai</h2>
-                                        <h3>United Arab Emirates</h3>  
+                                        <h2 className="my-5">Brand </h2>
+                                        {/* <h3>United Arab Emirates</h3>   */}
                                         </div>  
                                     </div>
                                 </div>
@@ -484,21 +651,62 @@ const Home=()=>{
                             <div className="Images-card my-2 all-ten">
                                     <div className="content" onclick="OnClick()" >
                                     <div>
-                                        <h2>Dubai</h2>
-                                        <h3>United Arab Emirates</h3>  
+                                        <h2 className="my-5">Brand</h2>
+                                        {/* <h3></h3>   */}
                                         </div> 
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
-                    <div className="tab-pane" id="Web-Design" role="tabpanel" aria-labelledby="Web-Design-tab" tabindex="0">
+                    <div className="tab-pane" id="Development" role="tabpanel" aria-labelledby="Development-tab" tabindex="0">
+                        <div className="row">
+                        <div className="col-12 col-md-6 col-lg-3">
+                            <div className="Images-card my-2 all-eleven">
+                                    <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2 >Graphic </h2>
+                                        <h3>Designing</h3>  
 
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-lg-3">
+                            <div className="Images-card my-2 all-twelve">
+                                    <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2 >Graphic </h2>
+                                        <h3>Designing</h3>  
+
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-lg-3">
+                            <div className="Images-card my-2 all-thirteen">
+                                    <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2 >Graphic </h2>
+                                        <h3>Designing</h3>  
+
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 col-lg-3">
+                            <div className="Images-card my-2 all-fourteen">
+                                    <div className="content" onclick="OnClick()" >
+                                    <div className="my-3">
+                                        <h2 >Graphic </h2>
+                                        <h3>Designing</h3>  
+
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className="tab-pane" id="App" role="tabpanel" aria-labelledby="App-tab" tabindex="0">...</div>
-                    <div className="tab-pane" id="Brand" role="tabpanel" aria-labelledby="Brand-tab" tabindex="0">...</div>
-                    <div className="tab-pane" id="Development" role="tabpanel" aria-labelledby="Development-tab" tabindex="0">...</div>
                     </div>
             </div>
         </div>

@@ -28,7 +28,7 @@ const Navbar =()=>{
                             <ul className="dropdown-menu">
                             <li><Link to='./Components/Services' className="dropdown-item"  >Lecomake Management</Link></li>
                             <li><Link to='/' className="dropdown-item"  >Website Design and Devlopment</Link></li>
-                            <li><Link to='/' className="dropdown-item"  >Android & IOS Apllication Development</Link></li>
+                            <li><Link to='/Components/AndroidDevelopment' className="dropdown-item"  >Android & IOS Apllication Development</Link></li>
                             <li>< Link to='/' className="dropdown-item"  >Support MSME & Company</Link></li>
                             <li><Link to='/' className="dropdown-item"  >Digital Marketing</Link></li>
                             <li><Link to='/' className="dropdown-item"  >Data Analysis</Link></li>
